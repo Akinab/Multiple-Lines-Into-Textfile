@@ -17,3 +17,4 @@ def write_to_file():
             answer = input("Are there more lines y/n? ")
             # if the answer is 'n', break out of the loop
             if answer.lower() == 'n':
+                break
