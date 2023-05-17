@@ -6,3 +6,4 @@ def details ():
 details ()
 
 def write_to_file():
+    with open('random.txt', 'w') as f:
