@@ -13,3 +13,5 @@ def write_to_file():
             line = input("Enter line: ")
             # write the line to the file
             f.write(line + '\n')
+            # prompt the user to enter more lines or not
+            answer = input("Are there more lines y/n? ")
