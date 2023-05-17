@@ -5,3 +5,4 @@ def details ():
     
 details ()
 
+def write_to_file():
