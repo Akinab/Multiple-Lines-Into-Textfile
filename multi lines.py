@@ -7,3 +7,5 @@ details ()
 
 def write_to_file():
     with open('random.txt', 'w') as f:
+        # repeat until the user enters 'n'
+        while True:
