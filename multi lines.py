@@ -18,3 +18,4 @@ def write_to_file():
             # if the answer is 'n', break out of the loop
             if answer.lower() == 'n':
                 break
+write_to_file()
