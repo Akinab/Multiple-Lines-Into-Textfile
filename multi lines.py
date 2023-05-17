@@ -11,3 +11,5 @@ def write_to_file():
         while True:
             # prompt the user to enter a line of text
             line = input("Enter line: ")
+            # write the line to the file
+            f.write(line + '\n')
